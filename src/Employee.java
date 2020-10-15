@@ -6,6 +6,11 @@ public class Employee {
         return baseSalary + (hourlyRate * extraHours);
     }
 
+    public Employee(int baseSalary, int hourlyRate) {
+        this.baseSalary = baseSalary;
+        this.hourlyRate = hourlyRate;
+    }
+
     public int getBaseSalary() {
         return baseSalary;
     }
