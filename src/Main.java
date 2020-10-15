@@ -5,5 +5,9 @@ public class Main {
         employee1.setHourlyRate(50);
         int wage = employee1.calculateWage(30);
         System.out.println(wage);
+
+
+        Browser browser1 = new Browser();
+        browser1.navigate("...");
     }
 }
