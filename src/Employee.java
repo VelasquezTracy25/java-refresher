@@ -7,8 +7,8 @@ public class Employee {
     }
 
     public Employee(int baseSalary, int hourlyRate) {
-        this.baseSalary = baseSalary;
-        this.hourlyRate = hourlyRate;
+        this.setBaseSalary(baseSalary);
+        this.setHourlyRate(hourlyRate);
     }
 
     public int getBaseSalary() {
