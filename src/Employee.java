@@ -6,6 +6,7 @@ public class Employee {
         return baseSalary + (hourlyRate * extraHours);
     }
 
+//constructor using setters instead local variables since we've set them up with illegal argument exceptions
     public Employee(int baseSalary, int hourlyRate) {
         this.setBaseSalary(baseSalary);
         this.setHourlyRate(hourlyRate);
