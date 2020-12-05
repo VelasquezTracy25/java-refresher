@@ -3,7 +3,10 @@
 public class AdventDay4 {
 
     public static void main(String[] args) {
-
+    returnCentury(100);
+    returnCentury(0);
+    returnCentury(1905);
+    returnCentury(1700);
     }
 
     public static void returnCentury(int year) {
