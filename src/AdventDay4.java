@@ -6,8 +6,15 @@ public class AdventDay4 {
 
     }
 
-    public static int returnCentury(int year){
-
-    return century;
+    public static void returnCentury(int year) {
+        if (year <= 0)
+            System.out.print("0 or negative is not allowed");
+        else if (year <= 100)
+            System.out.print("1st century\n");
+        else if (year % 100 == 0)
+            System.out.print(year / 100 + " century");
+        else
+            System.out.print(year / 100 + 1 + " century");
     }
 }
+
