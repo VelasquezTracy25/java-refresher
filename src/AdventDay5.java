@@ -11,7 +11,6 @@ public class AdventDay5 {
     }
 
     public static StringBuilder reverseString(String str) {
-
         StringBuilder newStr = new StringBuilder();
 
         newStr.append(str);
