@@ -4,15 +4,25 @@
 public class AdventDay7 {
 
     public static void main(String[] args) {
+        System.out.println(countVowelsConsonants("Tracy"));
 
     }
 
     public static int countVowelsConsonants(String string) {
 
-    int count = 0;
+        int count = 0;
 
+        String[] stringToArray = string.split("", 100);
 
+        for (String character : stringToArray) {
+            if (character == "a" || (character == "e") || (character == "i") || (character == "o") || (character == "u")) {
+                count++;
+            } else {
+                count += 2;
+            }
 
-return count;
+        }
+        return count;
     }
+
 }
