@@ -3,7 +3,9 @@
 
 public class AdventDay12 {
     public static void main(String[] args) {
-
+    System.out.println(isValidTime("13:58"));
+    System.out.println(isValidTime("25:51"));
+    System.out.println(isValidTime("02:76"));
     }
 
     public static boolean isValidTime(String string) {
@@ -11,7 +13,7 @@ public class AdventDay12 {
         int hour = Integer.parseInt(splitTime[0]);
         int minute = Integer.parseInt(splitTime[1]);
 
-        if (hour < 24 && minute < 60) {
+        if (hour <= 24 && minute < 60) {
             return true;
         }
         return false;
