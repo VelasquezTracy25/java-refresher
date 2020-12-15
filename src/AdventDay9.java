@@ -5,11 +5,14 @@
 
  public class AdventDay9 {
      public static void main(String[] args) {
+
+
      }
 
-     public static String reverseAString(String oldString){
+     public static void reverseAString(String oldString){
+         char[] newString = oldString.toCharArray();
 
-
-     return newString;
+         for (int i = newString.length - 1; i >= 0; i--)
+             System.out.print(newString[i]);
      }
 }
