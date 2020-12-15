@@ -5,7 +5,8 @@
 
  public class AdventDay9 {
      public static void main(String[] args) {
-
+         reverseAString("hello");
+         reverseAString("Howdy");
 
      }
 
