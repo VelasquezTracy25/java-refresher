@@ -6,4 +6,13 @@ package Advent;
 // "aba caba" returns "a-b-a c-a-b-a"
 
 public class AdventDay16 {
+    public static void main(String[] args) {
+
+    }
+
+    public static String addDashes(String origina){
+
+    return newString;
+
+    }
 }
