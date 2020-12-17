@@ -1,4 +1,4 @@
-//Given array of integers, remove each kth elemnt from it.
+package Advent;//Given array of integers, remove each kth elemnt from it.
 
 import java.util.ArrayList;
 import java.util.List;

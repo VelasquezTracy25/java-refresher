@@ -1,4 +1,4 @@
-// You've deposited a specific amount of dollars into your bank account. Each year your balance increased at the same growth rate. Find out how long it will take to pass a specific threshold with the assumption that you don't take any additional deposits.
+package Advent;// You've deposited a specific amount of dollars into your bank account. Each year your balance increased at the same growth rate. Find out how long it will take to pass a specific threshold with the assumption that you don't take any additional deposits.
 
 public class AdventDay2 {
     public static void main(String[] args) {

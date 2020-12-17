@@ -1,4 +1,4 @@
-//Given a year, return the century its in.
+package Advent;//Given a year, return the century its in.
 
 public class AdventDay4 {
 

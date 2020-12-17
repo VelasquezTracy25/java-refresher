@@ -1,3 +1,5 @@
+package Advent;
+
 import java.util.Arrays;
 
 //Write a function that splits an array (first arg) into groups the length of size (second arg) and returns them as a two dimensional array.
