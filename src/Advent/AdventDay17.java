@@ -11,6 +11,7 @@ public class AdventDay17 {
         System.out.println(countChars("Tracy"));
         System.out.println(countChars("Marry"));
         System.out.println(countChars("eeeee"));
+        System.out.println("Eeeee");
 
     }
 
