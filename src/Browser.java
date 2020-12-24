@@ -10,7 +10,7 @@ public class Browser {
     }
 
     private String findIpAddress(String address) {
-        return "<html>";
+        return "<html></html>";
     }
 
 }

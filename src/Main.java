@@ -8,6 +8,11 @@ public class Main {
         System.out.println(wage);
 
 
+        System.out.println(employee1.calculateWage(0));
+        employee1.setBaseSalary(60000);
+        System.out.println(employee1.calculateWage(0));
+
+
         Browser browser1 = new Browser();
         browser1.navigate("...");
 
