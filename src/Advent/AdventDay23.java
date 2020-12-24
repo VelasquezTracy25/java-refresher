@@ -4,15 +4,22 @@
 
 package Advent;
 
+import java.util.Scanner;
+
 public class AdventDay23 {
 
     public static void main(String[] args) {
-        tweetCharacterCount("This is my first tweet.");
-        tweetCharacterCount("This tweet should be longer than 280 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lorem interdum, luctus eros eget, gravida felis. Quisque ut interdum turpis. Vestibulum dolor arcu, luctus vel nibh sed, tempor convallis tortor. Fusce in diam blandit, fermentum quam ac, lobortis tortor integer.");
-        tweetCharacterCount("This is my final tweet ever!");
+//        tweetCharacterCount("This is my first tweet.");
+//        tweetCharacterCount("This tweet should be longer than 280 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lorem interdum, luctus eros eget, gravida felis. Quisque ut interdum turpis. Vestibulum dolor arcu, luctus vel nibh sed, tempor convallis tortor. Fusce in diam blandit, fermentum quam ac, lobortis tortor integer.");
+//        tweetCharacterCount("This is my final tweet ever!");
+
+        tweetCharacterCount();
     }
 
-    public static void tweetCharacterCount(String tweet) {
+    public static void tweetCharacterCount() {
+        Scanner tweetInput = new Scanner(System.in);
+        System.out.println("Keep it short and sweet: ");
+        String tweet = tweetInput.nextLine();
         int characterLimit = 280;
 
         if (tweet.length() < 280) {
