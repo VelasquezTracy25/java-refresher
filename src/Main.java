@@ -16,7 +16,7 @@ public class Main {
         Browser browser1 = new Browser();
         browser1.navigate("...");
 
-        browser1.navigate("Address example")
+        browser1.navigate("Address example");
 
 
         //Variables have a static type, we cannot change it throughout the life og the program

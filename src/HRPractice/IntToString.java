@@ -1,6 +1,7 @@
 package HRPractice;
 
 import java.security.Permission;
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class IntToString {
@@ -15,6 +16,9 @@ public class IntToString {
             //String s=???; Complete this line below
 
             String s = Integer.toString(n);
+
+
+            int findDay = Calendar.DAY_OF_WEEK;
 
 
 
