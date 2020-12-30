@@ -2,7 +2,7 @@ public class Browser {
     public void navigate(String address) {
         String ip = findIpAddress(address);
         String html = sendHttpRequest(ip);
-        String testVar = testMethod(address);
+        String testVar = testMethod(html);
         System.out.println(html);
     }
 
