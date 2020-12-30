@@ -4,7 +4,13 @@ public class OneThroughFive {
     public static void main(String[] args) {
         System.out.println(fibonnaci(5));
         System.out.println(fibonnaci(3));
-        System.out.println(isPrimeNumber(5));
+
+        int index = 0;
+        while (true){
+            System.out.println(fibonnaci(index));
+            index++;
+            }
+//        System.out.println(isPrimeNumber(5));
     }
 
     public static boolean isPrimeNumber(int number) {
