@@ -18,8 +18,11 @@ public class RockPaperScissors {
         Random rand = new Random();
         String randomElement = list.get(rand.nextInt(list.size()));
 
-        System.out.println(randomElement);
-
-
+        if (randomElement.equalsIgnoreCase(playersResponse)) {
+            System.out.println("Draw! I chose " + randomElement + " too. Shoot again.");
+            rockPaperScissors();
+        }
+        System.out.println("Sorry, I chose " + randomElement + ". Try again.");
+        rockPaperScissors();
     }
 }
