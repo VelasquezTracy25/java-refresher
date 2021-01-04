@@ -21,8 +21,13 @@ public class RockPaperScissors {
         if (randomElement.equalsIgnoreCase(playersResponse)) {
             System.out.println("Draw! I chose " + randomElement + " too. Shoot again.");
             rockPaperScissors();
+        } else if (
+                randomElement.equalsIgnoreCase("rock") && rand.equals("Scissors") ||
+                randomElement.equalsIgnoreCase("paper") && rand.equals("Rock") ||
+                randomElement.equalsIgnoreCase("scissors") && rand.equals("Paper")) {
+        } else {
+            System.out.println("Sorry, I chose " + randomElement + ". Try again.");
+            rockPaperScissors();
         }
-        System.out.println("Sorry, I chose " + randomElement + ". Try again.");
-        rockPaperScissors();
     }
 }
