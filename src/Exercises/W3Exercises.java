@@ -7,6 +7,11 @@ public class W3Exercises {
         compareNumbers(1,2);
         compareNumbers(1,1);
         compareNumbers(2,1);
+        sumDigits(22);
+        sumDigits(23);
+        sumDigits(5);
+        sumDigits(0);
+
             }
 
     //Write a Java program that accepts four integer from the user and prints equal if all four are equal, and not equal otherwise.
@@ -37,4 +42,16 @@ public class W3Exercises {
         if (num1 >= num2)
             System.out.printf("%d >= %d\n", num1, num2);
     }
+
+    //Write a Java program and compute the sum of the digits of an integer.
+    public static int sumDigits(int n) {
+        int sum = 0;
+        while (n != 0) {
+            sum += n % 10;
+            n /= 10;
+        }
+        return sum;
+    }
+
+
 }
