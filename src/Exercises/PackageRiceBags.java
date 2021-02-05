@@ -4,7 +4,6 @@ package Exercises;
 
 public class PackageRiceBags {
     public static void main(String[] args) {
-
     }
 
     public Boolean packageRice(Integer big, Integer small, Integer goal) {
