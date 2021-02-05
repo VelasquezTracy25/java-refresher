@@ -1,5 +1,8 @@
 package Exercises;
 
+//Given a number n, write a method that sums all multiples of three and five up to n (inclusive).
+
+
 public class SumMultiples {
 
     public Integer sum(Integer n) {
