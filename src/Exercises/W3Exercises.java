@@ -2,15 +2,17 @@ package Exercises;
 
 public class W3Exercises {
     public static void main(String[] args) {
-        areEqual(1, 1, 1, 1);
-        areEqual(1, 2, 3, 4);
-        compareNumbers(1,2);
-        compareNumbers(1,1);
-        compareNumbers(2,1);
-        sumDigits(22);
-        sumDigits(23);
-        sumDigits(5);
-        sumDigits(0);
+//        areEqual(1, 1, 1, 1);
+//        areEqual(1, 2, 3, 4);
+//        compareNumbers(1,2);
+//        compareNumbers(1,1);
+//        compareNumbers(2,1);
+//        sumDigits(22);
+//        sumDigits(23);
+//        sumDigits(5);
+//        sumDigits(0);
+printNumbers(5);
+printNumbers(100);
 
             }
 
@@ -56,7 +58,7 @@ public class W3Exercises {
     //Write a Java program to print the odd numbers from 1 to 99. Prints one number per line.
 
 public static void printNumbers(int number){
-    for (int i = 1; i < 100; i++) {
+    for (int i = 1; i < number; i++) {
         if (i % 2 != 0) {
             System.out.println(i);
         }
